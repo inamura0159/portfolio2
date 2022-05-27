@@ -116,6 +116,11 @@ li{
     margin-top: 20px;
 }
 
+.bl_choice_list {
+    margin-right: 15px;
+    cursor: pointer;
+}
+
 
 /*--------------------
 
