@@ -416,16 +416,15 @@ padding-top: 30px;
     padding-left: 0;
   }
 
-.
 
   /*--------------------
 
   セクションタイトル
 
   --------------------*/
-  .sm_none{
+  .mobile_none {
     display: none;
-  }
+}
 
   .ly_sectionTitle_wrapper {
       padding-bottom: 50px;
