@@ -336,8 +336,31 @@ li{
   font-size: 2.5rem;
 }
 
-.bl_card:hover {
+/*.bl_card:hover {
     filter: brightness(0.6);
+}
+*/
+
+.is_hover {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    padding: 20px;
+    background: rgba(0,0,0,0.8);
+    top: 0;
+    left: 0;
+    box-sizing: border-box;
+}
+
+.is_hover > p {
+    position: absolute;
+    top: 60%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #fff;
+    font-size: 2rem;
+text-align: center;
+    font-weight: bold;
 }
 
 
@@ -503,9 +526,9 @@ padding-top: 30px;
     margin-bottom: -30px;
   }
 
-.bl_cardUnit__extended .bl_card{
+/*.bl_cardUnit__extended .bl_card{
       margin-bottom: 30px;
-}
+}*/
 
 .bl_cardUnit__extended .bl_card_ttl{
       font-size: 1.25rem;
