@@ -522,11 +522,11 @@ padding-top: 30px;
   メイン・サービス
 
   --------------------*/
-  .bl_cardUnit__extended{
+  /*.bl_cardUnit__extended{
     margin-bottom: -30px;
   }
 
-/*.bl_cardUnit__extended .bl_card{
+.bl_cardUnit__extended .bl_card{
       margin-bottom: 30px;
 }*/
 
