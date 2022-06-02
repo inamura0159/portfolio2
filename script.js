@@ -24,7 +24,7 @@ return false;
 //画像キャプション表示
 $(function(){
 $('.bl_cardUnit__extended').children('.bl_card').append('<div>');
-$('.bl_card').children('div').addClass('is_hover');
+$('.bl_cardUnit__extended').children('.bl_card').children('div').addClass('is_hover');
 
 $('.is_hover').each(function(){
 
